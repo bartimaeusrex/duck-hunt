@@ -1,0 +1,14 @@
+html
+  head
+    title Duck Hunt - High Scores
+    link(rel="stylesheet" href="/css/styles.css")
+  body
+    table
+      tr
+        th(colspan=3) &#x1F986; DUCK HUNT - HIGH SCORES &#x1F986;
+
+      for score in scores
+        tr
+          td(class="place")= score.place
+          td(class="initials")= score.initials
+          td(class="score")= score.score

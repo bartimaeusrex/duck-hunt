@@ -1,0 +1,35 @@
+body {
+  background-color: #222222;
+  color: #dddddd;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 75%;
+}
+
+th {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+}
+
+.place {
+  width: 10%;
+}
+
+.initials {
+  width: 40%;
+}
+
+.score {
+  width: 50%;
+}
